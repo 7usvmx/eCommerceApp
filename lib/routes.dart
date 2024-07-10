@@ -99,6 +99,6 @@ List<GetPage<dynamic>> routes = [
   ),
   GetPage(
     name: AppRoutes.addAddress,
-    page: () => const AddAddress(),
+    page: () => AddAddress(),
   ),
 ];
