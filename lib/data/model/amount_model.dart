@@ -10,9 +10,9 @@ class AmountModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['totalAmount'] = this.totalAmount;
-    data['allProductsQuantity'] = this.allProductsQuantity;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['totalAmount'] = totalAmount;
+    data['allProductsQuantity'] = allProductsQuantity;
     return data;
   }
 }

@@ -38,6 +38,7 @@ class MyApp extends StatelessWidget {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Shop',
+      
       theme: controller.changeTheme,
       locale: controller.language,
       translations: AppTranslation(),

@@ -24,7 +24,7 @@ class AddAddress extends StatelessWidget {
       ),
       body: Column(
         children: [
-          Container(
+          SizedBox(
             height: Get.height / 2,
             child: GoogleMap(
               mapType: MapType.normal,

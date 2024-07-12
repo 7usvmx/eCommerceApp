@@ -38,7 +38,7 @@ class CartFloatingBottomButton extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text("سعر المنتجات", style: TextStyle(fontSize: 15)),
-                    Text(allProductPrice, style: TextStyle(fontSize: 15)),
+                    Text(allProductPrice, style: const TextStyle(fontSize: 15)),
                   ],
                 ),
                 Divider(color: AppColors.mainColor),
@@ -47,7 +47,7 @@ class CartFloatingBottomButton extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     const Text("المجموع", style: TextStyle(fontSize: 15)),
-                    Text(amount, style: TextStyle(fontSize: 15)),
+                    Text(amount, style: const TextStyle(fontSize: 15)),
                   ],
                 ),
               ],

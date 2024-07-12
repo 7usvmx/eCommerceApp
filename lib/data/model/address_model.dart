@@ -27,14 +27,14 @@ class AddressModel {
   }
 
   Map<String, dynamic> toJson() {
-    final Map<String, dynamic> data = new Map<String, dynamic>();
-    data['addressID'] = this.addressID;
-    data['addressUserID'] = this.addressUserID;
-    data['addressName'] = this.addressName;
-    data['addressCity'] = this.addressCity;
-    data['addressStreet'] = this.addressStreet;
-    data['addressLat'] = this.addressLat;
-    data['addressLong'] = this.addressLong;
+    final Map<String, dynamic> data = <String, dynamic>{};
+    data['addressID'] = addressID;
+    data['addressUserID'] = addressUserID;
+    data['addressName'] = addressName;
+    data['addressCity'] = addressCity;
+    data['addressStreet'] = addressStreet;
+    data['addressLat'] = addressLat;
+    data['addressLong'] = addressLong;
     return data;
   }
 }

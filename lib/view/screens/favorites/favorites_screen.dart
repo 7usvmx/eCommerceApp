@@ -6,7 +6,6 @@ import 'package:shop/controller/favorites/favorites_page_controller.dart';
 import 'package:shop/core/classes/handling_data_view.dart';
 import 'package:shop/core/constants/colors.dart';
 import 'package:shop/core/functions/translate_data_from_database.dart';
-import 'package:shop/view/widgets/home/search_and_notifications.dart';
 
 class FavoritesScreen extends StatelessWidget {
   const FavoritesScreen({super.key});

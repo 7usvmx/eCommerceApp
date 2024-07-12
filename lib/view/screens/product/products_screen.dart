@@ -5,7 +5,6 @@ import 'package:shop/controller/products/products_controller.dart';
 import 'package:shop/core/classes/handling_data_view.dart';
 
 import 'package:shop/data/model/products_model.dart';
-import 'package:shop/view/widgets/home/search_and_notifications.dart';
 import 'package:shop/view/widgets/products/product_card.dart';
 import 'package:shop/view/widgets/products/products_categories_widget.dart';
 

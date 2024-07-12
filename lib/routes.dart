@@ -29,12 +29,13 @@ List<GetPage<dynamic>> routes = [
   GetPage(name: AppRoutes.home, page: () => const MainHome()),
   //! Chose language screen
   GetPage(
-      name: AppRoutes.languages,
-      page: () => const ChangeLangScreen(),
-      middlewares: [
-        StarterMiddleWare(),
-        SigninMiddleWare(),
-      ]),
+    name: AppRoutes.languages,
+    page: () => const ChangeLangScreen(),
+    middlewares: [
+      StarterMiddleWare(),
+      SigninMiddleWare(),
+    ],
+  ),
   //! Onboarding Screen
   GetPage(
     name: AppRoutes.onboarding,
