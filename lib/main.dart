@@ -10,7 +10,7 @@ import 'core/functions/check_internet_connection.dart';
 
 bool internet = true;
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized   ();
   await initialServices();
 
   internet = await internetChecker();

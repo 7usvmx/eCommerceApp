@@ -29,6 +29,8 @@ class ApiUrls {
 
   //! ======================= Cart Links ===================== !//
   static const search = "$serverName/search/search.php";
+
   //! ======================= Address Links ===================== !//
   static const addressData = "$serverName/address/viewAddress.php";
+  static const addAddress = "$serverName/address/addAddress.php";
 }
